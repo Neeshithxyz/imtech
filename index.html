@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to ImTech</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body onload="startVoiceAssistant()">
+
+    <header class="header">
+        <img src="static/images/logo.png" alt="ImTech Logo" class="logo">
+        <h1 class="brand">Welcome to ImTech</h1>
+        <div class="speaker-icon" id="speaker" title="Click to turn off voice">🔊</div>
+    </header>
+
+    <section class="vision-options">
+        <h2>Select your vision mode:</h2>
+        <a href="login.html?mode=low" class="vision-btn low">Low Vision</a>
+        <a href="login.html?mode=tunnel" class="vision-btn tunnel">Tunnel Vision</a>
+        <a href="login.html?mode=blind" class="vision-btn blind">Total Blindness</a>
+    </section>
+
+    <section class="quote">
+        <p>“Technology gives the quietest student a voice.”</p>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About ImTech</h2>
+        <p>ImTech is an inclusive learning platform built to empower visually impaired students using AI and accessibility-first design.</p>
+    </section>
+
+    <section class="developers" id="developers">
+        <h2>About the Developers</h2>
+        <div class="dev-container">
+            <div class="developer">
+                <img src="static/images/neeshith.jpg" alt="Neeshith Sahal">
+                <h3>Neeshith Sahal</h3>
+                <p>Creative mind behind ImTech. Loves making tech inclusive for all.</p>
+            </div>
+            <div class="developer">
+                <img src="static/images/kritika.jpg" alt="Kritika Sharma">
+                <h3>Kritika Sharma</h3>
+                <p>Design thinker and accessibility advocate powering ImTech UI.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="social" id="social">
+        <h2>Follow Us</h2>
+        <a href="https://facebook.com" class="social-link" target="_blank">Facebook</a>
+        <a href="https://instagram.com" class="social-link" target="_blank">Instagram</a>
+        <a href="https://twitter.com" class="social-link" target="_blank">Twitter</a>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 ImTech. All rights reserved.</p>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+    <script src="static/js/voice.js"></script>
+</body>
+</html>
